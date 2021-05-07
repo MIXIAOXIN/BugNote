@@ -39,3 +39,9 @@
     修改产生冲突的地方：
 
     ![image-20210416221025108](img/error1-fixed.png)
+
+
+
+8. pull master出错是因为你的master本地分支改动了，你直接在master执行：
+
+​				git reset --hard && git pull
