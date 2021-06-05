@@ -16,6 +16,8 @@
 
 3 子分支与主分支同步方法
 
+​			0 在整个TestPoint2Model的仓库目录下，操作一下mixiaoxin分支与master分支等操作。
+
  1. 切换到自己的分支：git switch mixiaoxin
 
  2. 将自己分支中的更改推送到远程：git push
@@ -45,3 +47,4 @@
 8. pull master出错是因为你的master本地分支改动了，你直接在master执行：
 
 ​				git reset --hard && git pull
+
