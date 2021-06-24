@@ -44,7 +44,11 @@
 
 
 
+​	修改完冲突后，重现在自己的分支下，add，commit，push即可。
+
 8. pull master出错是因为你的master本地分支改动了，你直接在master执行：
 
 ​				git reset --hard && git pull
+
+
 
